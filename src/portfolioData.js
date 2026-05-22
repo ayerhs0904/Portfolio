@@ -4,21 +4,21 @@
 export const portfolioData = {
   hero: {
     name: "Shreya",
-    title: "Software Engineer & Web Architect",
-    tagline: "Building premium digital experiences with pixel-perfect modern designs and robust algorithmic foundations.",
+    title: "Aspiring Java Developer & Problem Solver",
+    tagline: "Passionate about building efficient solutions through clean Java code, data structures, and algorithmic thinking.",
     avatarUrl: "/avatar.png", // Loads the generated custom illustration
     socials: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com",
-      email: "mailto:shreya.dev@example.com",
+      github: "https://github.com/ayerhs0904",
+      linkedin: "https://www.linkedin.com/in/shreya-singh-63303a296/",
+      email: "mailto:shreya2212s@gmail.com",
       twitter: "https://twitter.com"
     }
   },
   about: {
     bio: "Hi, I'm Shreya! I am a software engineer specializing in crafting luxury web interfaces and solving complex computational challenges. My toolkit spans from modern reactive frontends to highly optimized backend microservices and advanced Data Structures & Algorithms. I believe code should not only run flawlessly but also look stunning and feel completely intuitive. With a deep respect for rich typography, glassmorphism, and smooth tactile micro-animations, I build web solutions that leave a lasting impression.",
     stats: [
-      { label: "DSA Solved", value: "500+" },
-      { label: "Web Projects", value: "12+" },
+      { label: "DSA Solved", value: "300+" },
+      { label: "Web Projects", value: "3+" },
       { label: "Core Stacks", value: "5+" }
     ],
     values: [
@@ -99,27 +99,21 @@ export const portfolioData = {
   ],
   achievements: [
     {
-      date: "Dec 2025",
-      title: "Winner: Best UX/UI Design",
-      institution: "Technica Global Hackathon",
-      desc: "Spearheaded frontend layout and glassmorphic micro-animations for 'EcoFlow', leading the team to secure 1st place in visual presentation and core accessibility design."
+      date: "Active",
+      title: "Competitive Coding",
+      institution: "LeetCode & CodeChef",
+      desc: "Solved 200+ LeetCode questions and 500+ CodeChef questions"
     },
     {
-      date: "Oct 2025",
-      title: "LeetCode Contest Global Top 5%",
-      institution: "LeetCode Competitive Board",
-      desc: "Achieved a competitive coding ranking in the top 5% worldwide by consistently solving hard algorithmic tasks (graphs, DP, segment trees) under stringent time pressure."
-    },
-    {
-      date: "Jun 2025",
-      title: "Certified Professional Java Developer",
-      institution: "Oracle University",
-      desc: "Acquired advanced credentials validating extensive mastery over Java Core mechanics, parallel multi-threaded structures, functional streams, and microservice integration."
+      date: "2025 - 2026",
+      title: "Certifications",
+      institution: "Udemy & GeeksForGeeks",
+      desc: "Completed \"Master Spring Boot\" from Udemy in 2026 and \"Complete Java\" from GeeksForGeeks in 2025"
     }
   ],
   contact: {
-    email: "shreya.dev@example.com",
-    address: "Bangalore, India",
+    email: "shreya2212s@gmail.com",
+    address: "Delhi",
     availability: "Available for Full-time Roles & High-End Freelancing"
   }
 };

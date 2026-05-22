@@ -130,14 +130,14 @@ export default function Hero() {
                 onClick={(e) => handleScrollTo(e, 'projects')} 
                 className="btn-primary"
               >
-                Explore Projects <ArrowRight size={18} />
+                View My Projects →
               </a>
               <a 
                 href="#contact" 
                 onClick={(e) => handleScrollTo(e, 'contact')} 
                 className="btn-secondary"
               >
-                Get In Touch
+                Solve With Me
               </a>
             </div>
           </div>
