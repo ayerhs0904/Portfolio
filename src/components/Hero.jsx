@@ -46,8 +46,8 @@ export default function Hero() {
   };
 
   return (
-    <section 
-      id="home" 
+    <section
+      id="home"
       style={{
         minHeight: '100vh',
         display: 'flex',
@@ -59,10 +59,10 @@ export default function Hero() {
     >
       <div className="container" style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
         <div className="hero-grid" style={{ display: 'grid', gridTemplateColumns: '1.2fr 0.8fr', gap: '60px', alignItems: 'center' }}>
-          
+
           {/* Hero Content */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-            <div 
+            <div
               style={{
                 display: 'inline-flex',
                 alignItems: 'center',
@@ -82,9 +82,9 @@ export default function Hero() {
 
             <h1 style={{ fontSize: '4rem', lineHeight: '1.1', margin: 0 }}>
               Hi, I'm <br />
-              <span style={{ 
-                background: 'var(--grad-primary)', 
-                WebkitBackgroundClip: 'text', 
+              <span style={{
+                background: 'var(--grad-primary)',
+                WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 fontSize: '5.2rem',
                 fontFamily: "'Playfair Display', Georgia, serif",
@@ -94,9 +94,9 @@ export default function Hero() {
               </span>
             </h1>
 
-            <h2 style={{ 
-              fontSize: '1.8rem', 
-              fontWeight: '400', 
+            <h2 style={{
+              fontSize: '1.8rem',
+              fontWeight: '400',
               color: 'var(--text-secondary)',
               fontFamily: "'Outfit', sans-serif"
             }}>
@@ -125,16 +125,16 @@ export default function Hero() {
 
             {/* Action Buttons */}
             <div style={{ display: 'flex', gap: '16px', marginTop: '20px', flexWrap: 'wrap' }}>
-              <a 
-                href="#projects" 
-                onClick={(e) => handleScrollTo(e, 'projects')} 
+              <a
+                href="#projects"
+                onClick={(e) => handleScrollTo(e, 'projects')}
                 className="btn-primary"
               >
                 View My Projects →
               </a>
-              <a 
-                href="#contact" 
-                onClick={(e) => handleScrollTo(e, 'contact')} 
+              <a
+                href="#contact"
+                onClick={(e) => handleScrollTo(e, 'contact')}
                 className="btn-secondary"
               >
                 Solve With Me
@@ -145,13 +145,13 @@ export default function Hero() {
           {/* Hero Profile Image / Graphic */}
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div className="avatar-frame-container" style={{ position: 'relative', width: '320px', height: '320px' }}>
-              
+
               {/* Rotating glowing rings */}
               <div className="rotating-ring ring-outer"></div>
               <div className="rotating-ring ring-inner"></div>
-              
+
               {/* Main Avatar Container */}
-              <div 
+              <div
                 style={{
                   position: 'absolute',
                   top: '15px',
@@ -166,16 +166,18 @@ export default function Hero() {
                   background: 'var(--bg-deep)'
                 }}
               >
-                <img 
-                  src={avatarUrl} 
-                  alt={name} 
+                <img
+                  src={avatarUrl}
+                  alt={name}
                   style={{
                     width: '100%',
                     height: '100%',
                     objectFit: 'cover',
-                    objectPosition: 'center 15%',
-                    transition: 'transform 0.5s ease'
+                    objectPosition: 'center 45% ',
+                    transition: 'transform 0.5s ease',
+                    transform: 'scale(1.4)'
                   }}
+
                   className="avatar-img"
                 />
               </div>
