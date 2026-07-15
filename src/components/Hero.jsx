@@ -160,8 +160,8 @@ export default function Hero() {
                   height: '290px',
                   borderRadius: '50%',
                   overflow: 'hidden',
-                  border: '3px solid rgba(254, 207, 239, 0.2)',
-                  boxShadow: '0 0 40px rgba(161, 140, 209, 0.3)',
+                  border: '4px solid rgba(161, 140, 209, 0.6)',
+                  boxShadow: '0 0 30px rgba(161, 140, 209, 0.6), 0 0 10px rgba(254, 207, 239, 0.4)',
                   zIndex: 2,
                   background: 'var(--bg-deep)'
                 }}
@@ -173,6 +173,7 @@ export default function Hero() {
                     width: '100%',
                     height: '100%',
                     objectFit: 'cover',
+                    objectPosition: 'center 15%',
                     transition: 'transform 0.5s ease'
                   }}
                   className="avatar-img"

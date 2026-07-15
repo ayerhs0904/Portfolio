@@ -69,31 +69,31 @@ export const portfolioData = {
   },
   projects: [
     {
-      title: "AuraSpace Wellness",
-      desc: "A luxury scheduling and client relations system designed for boutique spas. Features glassmorphic booking panels, reactive timezone configurations, and animated calendar streams.",
-      tech: ["React.js", "CSS Grid", "Node.js", "Express"],
-      github: "https://github.com",
+      title: "PlaceBoard",
+      desc: "A placement tracking platform for students to manage job applications, company prep, and placement updates.",
+      tech: ["React", "Spring Boot", "MySQL"],
+      github: "https://github.com/ayerhs0904",
       live: "https://example.com"
     },
     {
-      title: "AlgoPulse Canvas",
-      desc: "An interactive, elegant diagnostic dashboard visualizer for graph traversal and dynamic programming pathfindings. Rendered using HTML5 canvas with custom playback velocities.",
-      tech: ["React.js", "DSA Algorithms", "Canvas API", "CSS Grid"],
-      github: "https://github.com",
+      title: "ShareBite",
+      desc: "A food donation platform connecting food businesses with NGOs to reduce food waste.",
+      tech: ["Spring Boot", "Spring Security", "JWT", "React", "MySQL"],
+      github: "https://github.com/ayerhs0904",
       live: "https://example.com"
     },
     {
-      title: "SpringSecure Auth",
-      desc: "An enterprise modular authentication microservice written in Java, leveraging Spring Security, OAuth2 protocols, and Redis distributed session caching under heavy load structures.",
-      tech: ["Java", "Spring Boot", "Redis", "PostgreSQL"],
-      github: "https://github.com",
+      title: "Hospital Management System (MediNova)",
+      desc: "A full-stack hospital management system for managing patients, doctors, and appointments.",
+      tech: ["Spring Boot", "React", "MySQL"],
+      github: "https://github.com/ayerhs0904",
       live: "https://example.com"
     },
     {
-      title: "Lumina Studio Engine",
-      desc: "A high-end responsive creative portfolio tailored for architectural firms. Rich in sliding transitions, custom layout galleries, and smooth inertia scroll animations.",
-      tech: ["React.js", "Vanilla CSS", "Framer Motion Mock", "Vite"],
-      github: "https://github.com",
+      title: "Travel Blog",
+      desc: "A dynamic travel vlog web application to explore and share travel experiences.",
+      tech: ["React", "Spring Boot", "MySQL"],
+      github: "https://github.com/ayerhs0904",
       live: "https://example.com"
     }
   ],
