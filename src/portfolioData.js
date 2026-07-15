@@ -6,7 +6,7 @@ export const portfolioData = {
     name: "Shreya",
     title: "Aspiring Java Developer & Problem Solver",
     tagline: "Passionate about building efficient solutions through clean Java code, data structures, and algorithmic thinking.",
-    avatarUrl: "/avatar.png", // Loads the generated custom illustration
+    avatarUrl: "/avatar.jpg", // Loads the generated custom illustration
     socials: {
       github: "https://github.com/ayerhs0904",
       linkedin: "https://www.linkedin.com/in/shreya-singh-63303a296/",
