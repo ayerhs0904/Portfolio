@@ -9,10 +9,11 @@ export const portfolioData = {
     avatarUrl: "/avatar.jpg", // Loads the generated custom illustration
     socials: {
       github: "https://github.com/ayerhs0904",
-      linkedin: "https://www.linkedin.com/in/shreya-singh-63303a296/",
+      linkedin: "https://www.linkedin.com/in/shreyaa-singh04/",
       email: "mailto:shreya2212s@gmail.com",
       twitter: "https://twitter.com"
     }
+
   },
   about: {
     bio: "Hi, I'm Shreya! I am a software engineer specializing in crafting luxury web interfaces and solving complex computational challenges. My toolkit spans from modern reactive frontends to highly optimized backend microservices and advanced Data Structures & Algorithms. I believe code should not only run flawlessly but also look stunning and feel completely intuitive. With a deep respect for rich typography, glassmorphism, and smooth tactile micro-animations, I build web solutions that leave a lasting impression.",
