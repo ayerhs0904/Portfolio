@@ -73,7 +73,7 @@ export const portfolioData = {
       title: "PlaceBoard",
       desc: "A placement tracking platform for students to manage job applications, company prep, and placement updates.",
       tech: ["React", "Spring Boot", "MySQL"],
-      github: "https://github.com/ayerhs0904",
+      github: "https://github.com/ayerhs0904/PlaceBoard",
       live: "https://example.com"
     },
     {
