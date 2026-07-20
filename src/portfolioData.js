@@ -80,7 +80,7 @@ export const portfolioData = {
       title: "ShareBite",
       desc: "A food donation platform connecting food businesses with NGOs to reduce food waste.",
       tech: ["Spring Boot", "Spring Security", "JWT", "React", "MySQL"],
-      github: "https://github.com/ayerhs0904/PlaceBoard",
+      github: "https://github.com/ayerhs0904/ShareBite",
       live: "https://share-bite-pi.vercel.app"
     },
     {
