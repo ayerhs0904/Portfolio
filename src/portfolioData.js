@@ -87,7 +87,7 @@ export const portfolioData = {
       title: "Hospital Management System (MediNova)",
       desc: "A full-stack hospital management system for managing patients, doctors, and appointments.",
       tech: ["Spring Boot", "React", "MySQL"],
-      github: "https://github.com/ayerhs0904",
+      github: "https://github.com/ayerhs0904/Hospital-management",
       live: "https://example.com"
     },
     {
