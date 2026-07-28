@@ -93,7 +93,7 @@ export const portfolioData = {
     {
       title: "Travel Blog",
       desc: "A dynamic travel vlog web application to explore and share travel experiences.",
-      tech: ["React", "Spring Boot", "MySQL"],
+      tech: ["React", "JavaScript", "HTML"],
       github: "https://github.com/ayerhs0904/Travel-blog",
       live: "https://example.com"
     }
