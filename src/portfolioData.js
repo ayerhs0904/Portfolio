@@ -19,7 +19,7 @@ export const portfolioData = {
     bio: "Hi, I'm Shreya! I am a software engineer specializing in crafting luxury web interfaces and solving complex computational challenges. My toolkit spans from modern reactive frontends to highly optimized backend microservices and advanced Data Structures & Algorithms. I believe code should not only run flawlessly but also look stunning and feel completely intuitive. With a deep respect for rich typography, glassmorphism, and smooth tactile micro-animations, I build web solutions that leave a lasting impression.",
     stats: [
       { label: "DSA Solved", value: "300+" },
-      { label: "Web Projects", value: "3+" },
+      { label: "Web Projects", value: "5+" },
       { label: "Core Stacks", value: "5+" }
     ],
     values: [
@@ -74,7 +74,7 @@ export const portfolioData = {
       desc: "A placement tracking platform for students to manage job applications, company prep, and placement updates.",
       tech: ["React", "Spring Boot", "MySQL"],
       github: "https://github.com/ayerhs0904/PlaceBoard",
-      live: "https://example.com"
+      live: "place-board.vercel.app"
     },
     {
       title: "ShareBite",
